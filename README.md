@@ -9,7 +9,7 @@
   <a href="#requirements"><img src="https://img.shields.io/badge/dependencies-0-1b1b19?style=flat-square" alt="No dependencies"></a>
 </p>
 
-<p align="center"><img src=".github/assets/vacuum-cleaner-dark.png" alt="Five ancestors of the vacuum cleaner, from 1860 to 2003, above a timeline" width="900"></p>
+<p align="center"><img src=".github/assets/vacuum-cleaner-light.png" alt="Five ancestors of the vacuum cleaner, from 1860 to 2003, above a timeline" width="900"><br><sub>The vacuum cleaner (the reference example): Hess 1860, McGaffey 1869, Spangler 1908, Dyson 1986, iRobot 2003.</sub></p>
 
 ## Built on Anatomy
 
@@ -41,11 +41,8 @@ Captions always say "patented", never "invented".
 
 <table>
 <tr>
-<td width="50%"><img src=".github/assets/computer-mouse-dark.png" alt="Computer mouse lineage"><br><sub><b>Computer mouse</b>: Engelbart 1970, Rider 1974, Kirsch 1983, Gillick 1996, Hotelling 2010. Inner parts are shown with cutaways. Drawn at 9 times life size.</sub></td>
-<td width="50%"><img src=".github/assets/typewriter-dark.png" alt="Typewriter lineage"><br><sub><b>Typewriter</b>: Sholes 1868, Brooks 1878, Smathers 1913, Palmer (IBM) 1959. Burt's 1829 patent burned in a fire in 1836, so it is named in the caption and not drawn.</sub></td>
-</tr>
-<tr>
-<td colspan="2"><img src=".github/assets/vacuum-cleaner-light.png" alt="Vacuum cleaner lineage, light theme"><br><sub><b>Vacuum cleaner</b> (the reference example, light theme): Hess 1860, McGaffey 1869, Spangler 1908, Dyson 1986, iRobot 2003.</sub></td>
+<td width="50%"><img src=".github/assets/computer-mouse-light.png" alt="Computer mouse lineage"><br><sub><b>Computer mouse</b>: Engelbart 1970, Rider 1974, Kirsch 1983, Gillick 1996, Hotelling 2010. Inner parts are shown with cutaways. Drawn at 9 times life size.</sub></td>
+<td width="50%"><img src=".github/assets/typewriter-light.png" alt="Typewriter lineage"><br><sub><b>Typewriter</b>: Sholes 1868, Brooks 1878, Smathers 1913, Palmer (IBM) 1959. Burt's 1829 patent burned in a fire in 1836, so it is named in the caption and not drawn.</sub></td>
 </tr>
 </table>
 
