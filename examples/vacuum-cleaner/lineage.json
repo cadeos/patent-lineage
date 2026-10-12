@@ -1,0 +1,63 @@
+{
+  "subject": "Vacuum cleaner",
+  "title": "Descent of the vacuum cleaner",
+  "question": "How did a box on wheels learn to breathe, then to think?",
+  "ancestors": [
+    {
+      "id": "US29077A",
+      "year": 1860,
+      "inventor": "Hess",
+      "title": "carpet sweeper",
+      "name": "Hess carpet sweeper",
+      "trait": "Suction: a bellows on the frame, worked by the wheels, draws dust up from the brush",
+      "short": "suction bellows",
+      "evidence": "Fig. 1 and text: \"On top of the frame is secured a bellows D ... to create a continuous current of air\"; revolving brush C between the wheels.",
+      "pose": "crouched"
+    },
+    {
+      "id": "US91145A",
+      "year": 1869,
+      "inventor": "McGaffey",
+      "title": "sweeping-machine",
+      "name": "McGaffey sweeping-machine",
+      "trait": "A rotary fan, spun by a hand crank and a belt down the handle; the operator stands erect",
+      "short": "hand-cranked fan",
+      "evidence": "Fig. 1/2: fan W in case A on a vertical shaft, grooved pulley R with crank near the top of handle M, belt I, cloth bag.",
+      "pose": "leaning"
+    },
+    {
+      "id": "US889823A",
+      "year": 1908,
+      "inventor": "Spangler",
+      "title": "carpet sweeper and cleaner",
+      "name": "Spangler suction sweeper",
+      "trait": "An electric motor on the fan casing drives the fan and, through bevel gears, the brush",
+      "short": "electric motor",
+      "evidence": "Fig. 2: electric motor 2 on top of fan casing 1, fan blades 5, bevel gear 6 to brush shaft 11, brush 12, dust bag 27 on handle 20, wheels 34.",
+      "pose": "upright"
+    },
+    {
+      "id": "US4593429A",
+      "year": 1986,
+      "inventor": "Dyson",
+      "title": "vacuum cleaning appliance",
+      "name": "Dyson cyclonic upright",
+      "trait": "No bag: a cyclone spins the dust out of the air into a bin",
+      "short": "bagless cyclone",
+      "evidence": "Fig. 1: cyclone 15 inside container 13, fan/motor 3 at the base, brush 4, hose 6 up the back, filter 7.",
+      "pose": "upright"
+    },
+    {
+      "id": "US6594844B2",
+      "year": 2003,
+      "inventor": "Jones",
+      "assignee": "iRobot",
+      "title": "robot obstacle detection system",
+      "name": "iRobot robot cleaner",
+      "trait": "No operator: sensors detect cliffs and obstacles and the robot steers itself",
+      "short": "self-steering",
+      "evidence": "Fig. 1-3: domed robot 10 on two wheels meeting a cliff 12, a wall 14 and a bump 16.",
+      "pose": "lying"
+    }
+  ]
+}

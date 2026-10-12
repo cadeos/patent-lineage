@@ -1,0 +1,64 @@
+{
+  "subject": "Computer mouse",
+  "title": "Descent of the computer mouse",
+  "question": "How did a wooden box with two wheels learn to roll, to see, and to feel?",
+  "ancestors": [
+    {
+      "id": "US3541541A",
+      "year": 1970,
+      "inventor": "Engelbart",
+      "title": "X-Y position indicator for a display system",
+      "name": "Engelbart position indicator",
+      "trait": "Two wheels at right angles under a hand-held box, one for X and one for Y, each turning a potentiometer",
+      "short": "two wheels",
+      "evidence": "Fig. 2/3: housing 26 on base 28, wheel 42 on shaft 44 to potentiometer 38, wheel 52 on shaft 48 to potentiometer 40, at right angles; keys 22 on top, glide 54, cord 18 (Fig. 1).",
+      "pose": "crouched"
+    },
+    {
+      "id": "US3835464A",
+      "year": 1974,
+      "inventor": "Rider",
+      "assignee": "Xerox",
+      "title": "Position indicator for a display system",
+      "name": "Rider ball mouse",
+      "trait": "One ball through the base replaces the wheels; small pick-off wheels read its roll",
+      "short": "rolling ball",
+      "evidence": "Fig. 2: ball 8 through base 18 of the hemispherical housing 22, pick-off wheels 26 and 28 on hangers 31, 33 from plate 20, idler 24 on top of the ball, key 14, feet 36, 38; cord 9 (Fig. 1).",
+      "pose": "crouched"
+    },
+    {
+      "id": "US4390873A",
+      "year": 1983,
+      "inventor": "Kirsch",
+      "title": "Electronic mouse",
+      "name": "Kirsch optical mouse",
+      "trait": "No moving parts: a light source and a photodetector look at a spot on a patterned surface",
+      "short": "light and eye",
+      "evidence": "Fig. 1/2: housing 14 with light source 17 and detector 21 (photocell 25) slanted to the spot 23 on the gridded surface 13; wall 27, bottom 31/33.",
+      "pose": "crouched"
+    },
+    {
+      "id": "US5530455A",
+      "year": 1996,
+      "inventor": "Gillick",
+      "title": "Roller mouse for implementing scrolling in windows applications",
+      "name": "Gillick roller mouse",
+      "trait": "A roller between the two keys, turned by a finger, scrolls the window",
+      "short": "scroll roller",
+      "evidence": "Fig. 1: mouse 10, keys 18 and 22 either side of piece 20, roller 24 between them, side slot 25, top 26; Fig. 5: roller 24 on axle 36 in frame 30 over switch 35/37 on springs 29.",
+      "pose": "lying"
+    },
+    {
+      "id": "US7808479B1",
+      "year": 2010,
+      "inventor": "Hotelling",
+      "assignee": "Apple",
+      "title": "Ambidextrous mouse",
+      "name": "Apple ambidextrous mouse",
+      "trait": "No keys: touch-sensitive zones under a smooth shell sense where the fingers are",
+      "short": "touch zones",
+      "evidence": "Fig. 1: mouse 20, housing 22, base 24, top member 26, touch-sensitive regions 28A, 28B and 28C (dashed); front-page figure: sensor nodes 188 and finger contact patches 196.",
+      "pose": "lying"
+    }
+  ]
+}

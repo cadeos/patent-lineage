@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  examples:
+    name: Tests and rebuild the examples
+    runs-on: macos-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Unit tests
+        run: node --test scripts/patent-id.test.mjs
+      - name: Rebuild the examples
+        run: |
+          for example in vacuum-cleaner computer-mouse typewriter; do
+            node examples/$example/build.mjs
+            node examples/$example/build.mjs --light
+          done
+      - name: Examples are committed as built
+        run: git diff --exit-code -- examples
+      - name: Line check
+        run: |
+          for example in vacuum-cleaner computer-mouse typewriter; do
+            node scripts/lines.mjs examples/$example/$example.html
+            node scripts/lines.mjs examples/$example/$example-light.html
+          done

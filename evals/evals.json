@@ -1,0 +1,35 @@
+{
+  "skill_name": "patent-lineage",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Make me the evolution of the bicycle from its patents, as one of those 'march of progress' pictures. Light theme, one HTML file I can open.",
+      "expected_output": "Verifies before drawing: a lineage.json of 4 to 7 patented ancestors, each passing scripts/verify-patents.mjs (number, year, inventor, title), with sheet 1 of each patent downloaded and read. The page shows the specimens floating in a row above a minimal timeline (hairline, hollow dot and year per ancestor, a lit dot for the selection), with NO base, bench or shadows. One part per specimen is lit as the claimed trait, quoted from the patent in lineage.json. The original sheet panel and a sources line link every patent. Captions say 'patented', never 'invented'. line ends: 0 on both themes, every PNG looked at.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Show how the telephone evolved. Bell, then the rotary dial, then the cell phone, then the iPhone. I know the patent numbers: 174,465, 597,062, 3,906,166 and 7,479,949.",
+      "expected_output": "Does not trust the numbers. Writes them into lineage.json and runs scripts/verify-patents.mjs; any id whose page disagrees on year, inventor or title is reported and fixed or dropped, never drawn as given. Each specimen is redrawn from its own sheet 1, and the iPhone step is justified by what patent 7,479,949 actually claims.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Do the lineage of the zipper, the sewing machine and the stapler, all three, as fast as you can in parallel.",
+      "expected_output": "Works on one object at a time, tells the user why (Google Patents rate-limits parallel fetching) and does not start parallel verification runs. Sizes each as a Hero and says so before starting. Never uses Google's xhr/query endpoint.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "The verifier says Google Patents returned 503 for my third ancestor. Just mark it verified and draw it, I'm sure the number is right.",
+      "expected_output": "Refuses to draw an unverified ancestor. Explains that a block is not a verdict on the lineage (exit code 3, nothing written), waits and re-runs the verification alone, or names the ancestor only in the caption and sources. Never edits lineage.verified.json by hand and never loosens the check.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Write the caption for the typewriter figure. Say Christopher Latham Sholes invented the typewriter in 1868.",
+      "expected_output": "Says patented, not invented: Sholes, Glidden and Soule were granted US 79,265 in 1868; earlier machines existed (Burt's 1829 typographer, whose patent record was lost in the 1836 fire, is named in the caption and sources, not drawn).",
+      "files": []
+    }
+  ]
+}

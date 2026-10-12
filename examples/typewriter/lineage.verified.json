@@ -1,0 +1,143 @@
+{
+  "subject": "Typewriter",
+  "title": "Descent of the typewriter",
+  "question": "How did a printing piano learn to shift, take power from a motor, and trade its hammers for a ball?",
+  "ancestors": [
+    {
+      "id": "US79265A",
+      "year": 1868,
+      "inventor": "Sholes",
+      "title": "improvement in type-writing machines",
+      "name": "Sholes, Glidden & Soule type-writer",
+      "trait": "A ring of type-bars that all strike one central point, worked by a piano-style row of keys",
+      "short": "type-bar ring",
+      "evidence": "Fig. 1, 5, 7 and text: annular disk B with type-bars o pivoted in radial slots, 'so each type on the inner ends ... will strike against the central point'; keys L 'similar to the key-board of a piano'; anvil O' and platen G on arm D; carriage frames C and E; bar F with pins e.",
+      "pose": "crouched",
+      "url": "https://patents.google.com/patent/US79265A/en",
+      "pdf": "https://patentimages.storage.googleapis.com/f2/f8/c2/77225faf96c627/US79265.pdf",
+      "verified": true,
+      "problems": [],
+      "page": {
+        "title": "Improvement in type-writing machines",
+        "inventors": [
+          "Sholes (from the OCR text)"
+        ],
+        "assignees": [],
+        "priority": "1868-06-23",
+        "published": "1868-06-23",
+        "status": "Expired - Lifetime",
+        "cites": 0,
+        "citedBy": 1,
+        "citesAncestor": []
+      },
+      "sheet": {
+        "file": "drawings/US79265A-sheet1.png",
+        "url": "https://patentimages.storage.googleapis.com/f2/f8/c2/77225faf96c627/US79265.pdf#page=1"
+      }
+    },
+    {
+      "id": "US202923A",
+      "year": 1878,
+      "inventor": "Brooks",
+      "title": "improvement in type-writing machines",
+      "name": "Brooks shifting-platen type-writer",
+      "trait": "One key, two letters: each type-bar carries a capital and a small letter, and a handle shifts the platen frame between them",
+      "short": "shift",
+      "evidence": "Fig. 1, 2 and text: cylindrical platen B in sliding frame C; handle H and spiral spring I; 'when the capitals are required, the roller is simply drawn forward'; type-bars D under frame A; keys E.",
+      "pose": "upright",
+      "url": "https://patents.google.com/patent/US202923A/en",
+      "pdf": "https://patentimages.storage.googleapis.com/86/85/45/e5d63619398c0b/US202923.pdf",
+      "verified": true,
+      "problems": [],
+      "page": {
+        "title": "Improvement in type-writing machines",
+        "inventors": [
+          "Brooks (from the OCR text)"
+        ],
+        "assignees": [],
+        "priority": "1878-04-30",
+        "published": "1878-04-30",
+        "status": "Expired - Lifetime",
+        "cites": 0,
+        "citedBy": 0,
+        "citesAncestor": []
+      },
+      "sheet": {
+        "file": "drawings/US202923A-sheet1.png",
+        "url": "https://patentimages.storage.googleapis.com/86/85/45/e5d63619398c0b/US202923.pdf#page=1"
+      }
+    },
+    {
+      "id": "US1077005A",
+      "year": 1913,
+      "inventor": "Smathers",
+      "title": "type-writing machine",
+      "name": "Smathers power type-writer",
+      "trait": "Power: a motor-driven roller throws the type-bars, so every key strikes with the same force",
+      "short": "power roller",
+      "evidence": "Fig. 1 and text: driven roller 1 'adapted for rotation by a motor', elliptic wheels 2 (one per key) with links 7, 8 and bar 9; key levers 19, type-bar 18 on link 16, fulcrum 17, lever 20; object: 'power-driven means for operating the type bars'.",
+      "pose": "leaning",
+      "url": "https://patents.google.com/patent/US1077005A/en",
+      "pdf": "https://patentimages.storage.googleapis.com/28/a0/8e/faa96e75a15e46/US1077005.pdf",
+      "verified": true,
+      "problems": [],
+      "page": {
+        "title": "Type-writing machine.",
+        "inventors": [
+          "James F Smathers",
+          "Individual"
+        ],
+        "assignees": [
+          "Individual"
+        ],
+        "priority": "1912-04-18",
+        "published": "1913-10-28",
+        "status": "Expired - Lifetime",
+        "cites": 0,
+        "citedBy": 3,
+        "citesAncestor": []
+      },
+      "sheet": {
+        "file": "drawings/US1077005A-sheet1.png",
+        "url": "https://patentimages.storage.googleapis.com/28/a0/8e/faa96e75a15e46/US1077005.pdf#page=1"
+      }
+    },
+    {
+      "id": "US2919002A",
+      "year": 1959,
+      "inventor": "Palmer",
+      "assignee": "IBM",
+      "title": "selection mechanism for a single printing element typewriter",
+      "name": "IBM single-element typewriter",
+      "trait": "No type-bars: a single printing element, tilted and turned, travels along a fixed platen",
+      "short": "type ball",
+      "evidence": "Fig. 1, 2: single printing element 10 on shaft 15 of carrier 38, sliding on rails 243 and 218 in front of platen 36; selection mechanism in frame 106 with shaft 92, pulley 90 and latches 141-144.",
+      "pose": "lying",
+      "url": "https://patents.google.com/patent/US2919002A/en",
+      "pdf": "https://patentimages.storage.googleapis.com/d7/8c/e4/63e291af9aaaff/US2919002.pdf",
+      "verified": true,
+      "problems": [],
+      "page": {
+        "title": "Selection mechanism for a single printing element typewriter",
+        "inventors": [
+          "Leon E Palmer",
+          "International Business Machines Corp"
+        ],
+        "assignees": [
+          "International Business Machines Corp"
+        ],
+        "priority": "1957-04-19",
+        "published": "1959-12-29",
+        "status": "Expired - Lifetime",
+        "cites": 4,
+        "citedBy": 61,
+        "citesAncestor": []
+      },
+      "sheet": {
+        "file": "drawings/US2919002A-sheet1.png",
+        "url": "https://patentimages.storage.googleapis.com/d7/8c/e4/63e291af9aaaff/US2919002.pdf#page=1"
+      }
+    }
+  ],
+  "checked": "2026-10-12T08:36:40.328Z"
+}

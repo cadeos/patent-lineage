@@ -1,0 +1,31 @@
+name: Bug report
+description: A figure, the verifier, a check script or the install did something wrong.
+title: "Bug: "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where is the problem?
+      options:
+        - A lineage an agent made with the skill
+        - One of the examples
+        - verify-patents.mjs (a wrong verdict, a wrong sheet, a block)
+        - The kit (kit/)
+        - A check script (scripts/)
+        - SKILL.md or a reference
+        - Installing the skill
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+      description: For a wrong verdict, give the patent id and what the Google Patents page says. For a drawing fault, a screenshot and a 4× close-up (`node scripts/capture.mjs page.html --zoom x,y,w,h`).
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Output of the command
+      render: shell

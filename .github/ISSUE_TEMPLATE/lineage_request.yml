@@ -1,0 +1,17 @@
+name: Lineage request
+description: Suggest an object whose patent lineage would make a good figure.
+title: "Lineage: "
+labels: ["lineage"]
+body:
+  - type: input
+    id: object
+    attributes:
+      label: Object
+      placeholder: bicycle
+    validations:
+      required: true
+  - type: textarea
+    id: ancestors
+    attributes:
+      label: Ancestors you know of (optional)
+      description: Patent numbers if you have them. They will be verified, not trusted.

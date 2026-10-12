@@ -1,0 +1,3 @@
+interface:
+  display_name: "Patent lineage"
+  short_description: "Draw the evolution of an object from its verified patents"
